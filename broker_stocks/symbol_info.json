@@ -15,11 +15,6 @@
     "USD",
     "USD"
   ],
-  "base-currency": [
-    null,
-    null,
-    "EUR"
-  ],
   "exchange-listed": [
     "CBOE",
     "NASDAQ",
@@ -35,78 +30,40 @@
     1,
     1
   ],
-  "minmov2": [
-    0,
-    0,
-    0
-  ],
-  "fractional": [
-    false,
-    false,
-    false
-  ],
   "pricescale": [
     100,
     100,
     100000
-  ],
-  "root": [
-    "VIX",
-    null,
-    null
-  ],
-  "root-description": [
-    "Volatility Index",
-    null,
-    null
-  ],
-  "has-intraday": [
-    true,
-    true,
-    true
-  ],
-  "has-no-volume": [
-    false,
-    false,
-    true
-  ],
-  "type": [
-    "futures",
-    "stock",
-    "forex"
-  ],
-  "is-cfd": [
-    true
-  ],
-  "ticker": [
-    "VIXG2019",
-    "AAPLE",
-    "EURUSD"
   ],
   "timezone": [
     "America/New_York",
     "America/New_York",
     "America/New_York"
   ],
+  "type": [
+    "futures",
+    "stock",
+    "forex"
+  ],
   "session-regular": [
     "0000-2359:23456",
     "0930-1600",
     "1700-1700"
   ],
-  "session-extended": [
-    "0000-2359:23456",
-    "0400-2000",
-    "1700-1700"
+  "base-currency": [
+    "",
+    "",
+    "EUR"
   ],
-  "session-premarket": [
-    null,
-    "0400-0930",
-    null
+  "has-intraday": [
+    true,
+    true,
+    true
   ],
-  "session-postmarket": [
-    null,
-    "1600-2000",
-    null
+  "ticker": [
+    "VIXG2019",
+    "AAPLE",
+    "EURUSD"
   ],
   "supported-resolutions": [
     [
@@ -182,29 +139,9 @@
     false,
     false
   ],
-  "pointvalue": [
-    10,
-    1,
-    0.00001
-  ],
-  "expiration": [
-    20190213,
-    null,
-    null
-  ],
   "bar-source": [
     "trade",
     "bid",
     "ask"
-  ],
-  "bar-transform": [
-    "openprev",
-    "openprev",
-    "none"
-  ],
-  "bar-fillgaps": [
-    "true",
-    "true",
-    "false"
   ]
 }
